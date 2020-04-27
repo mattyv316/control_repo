@@ -1,6 +1,6 @@
 node default {
 }
-node 'learning.puppet.vm'{
+node 'learning.puppetlabs.vm'{
   include role::master_server
    file { '/root/README':
     ensure => file,
